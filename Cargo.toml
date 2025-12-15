@@ -1,0 +1,8 @@
+[package]
+name = "rust_calc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+terminal-fonts = "0.1.0"
+clearscreen = "2.0"
