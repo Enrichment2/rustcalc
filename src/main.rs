@@ -54,11 +54,11 @@ fn main() {
 	
 	
 	if choice == 1 {
-		println!("You chose addition!");
-		println!("Input the first number of the addition equation");
+		println!("You chose addition");
+		println!("Input the first number in the equation");
 		print!("> ");
 		let firstDigi = getNumber();
-		println!("Great! Now input the second number of your addition equation");
+		println!("Input the second number in the eqation");
 		print!("> ");
 		let secondDigi = getNumber();
 		let answer = firstDigi + secondDigi;
@@ -66,11 +66,11 @@ fn main() {
 	}
 	
 	if choice == 2 {
-		println!("You chose subtraction!");
-		println!("Input the first number of the subtraction equation");
+		println!("You chose subtraction");
+		println!("Input the first number in the equation");
 		print!("> ");
 		let firstDigi = getNumber();
-		println!("Great! Now input the second number of your subtraction equation");
+		println!("Input the second number in the eqation");
 		print!("> ");
 		let secondDigi = getNumber();
 		let answer = firstDigi - secondDigi;
@@ -78,11 +78,11 @@ fn main() {
 	}
 	
 	if choice == 3 {
-		println!("You chose division!");
-		println!("Input the first number of the division equation");
+		println!("You chose division");
+		println!("Input the first number in the equation");
 		print!("> ");
 		let firstDigi = getNumber();
-		println!("Great! Now input the second number of your division equation");
+		println!("Input the second number in the eqation");
 		print!("> ");
 		let secondDigi = getNumber();
 		if secondDigi == 0.0 {
@@ -94,11 +94,11 @@ fn main() {
 	}
 	
 	if choice == 4 {
-		println!("You chose multiplication!");
-		println!("Input the first number of the multiplication equation");
+		println!("You chose multiplication");
+		println!("Input the first number in the equation");
 		print!("> ");
 		let firstDigi = getNumber();
-		println!("Great! Now input the second number of your multiplication equation");
+		println!("Input the second number in the eqation");
 		print!("> ");
 		let secondDigi = getNumber();
 		let answer = firstDigi * secondDigi;
