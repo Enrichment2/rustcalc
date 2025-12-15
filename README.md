@@ -12,3 +12,5 @@ This is a fully fuctonial calculator (add, subtract, multiply, and divide) using
 ## Prerequisites
 - Rust 
 - Cargo
+
+# This will be update with more info later on, not at the momment though!
