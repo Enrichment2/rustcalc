@@ -48,11 +48,11 @@ fn main() {
 		}
 		if menuInput >= 1.0 && menuInput <= 4.0 {
 			choice = menuInput as i32;
-			break;
 		} else {
 			error_message = String::from("Choose a number 0 to 4 you absolute fool");
 		}
-	}
+	
+	
 	if choice == 1 {
 		println!("You chose addition!");
 		println!("Input the first number of the addition equation");
@@ -64,6 +64,7 @@ fn main() {
 		let answer = firstDigi + secondDigi;
 		println!("{}+{}={}", firstDigi, secondDigi, answer);
 	}
+	
 	if choice == 2 {
 		println!("You chose subtraction!");
 		println!("Input the first number of the subtraction equation");
@@ -75,6 +76,7 @@ fn main() {
 		let answer = firstDigi - secondDigi;
 		println!("{}-{}={}", firstDigi, secondDigi, answer);
 	}
+	
 	if choice == 3 {
 		println!("You chose division!");
 		println!("Input the first number of the division equation");
@@ -90,6 +92,7 @@ fn main() {
 			println!("{}/{}={}", firstDigi, secondDigi, answer);
 		}
 	}
+	
 	if choice == 4 {
 		println!("You chose multiplication!");
 		println!("Input the first number of the multiplication equation");
@@ -100,5 +103,19 @@ fn main() {
 		let secondDigi = getNumber();
 		let answer = firstDigi * secondDigi;
 		println!("{}x{}={}", firstDigi, secondDigi, answer);
+	}
+	println!("1) Back");
+	println!("0) Exit");
+	print!("> "); // Prints the input cursor
+		let menuInput = getNumber();
+		
+		if menuInput == 0.0 {
+			break;
+		}
+		if menuInput == 1.0 {
+			continue;
+		} else {
+			error_message = String::from("Choose a number 0 to 4 you absolute fool");
+		}
 	}
 }
